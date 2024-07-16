@@ -1,0 +1,196 @@
+V "GNAT Lib v10"
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IO
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U controlled_io.text%b	controlled_io-text.adb	6eb671fd NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W controlled_io%s	controlled_io.adb	controlled_io.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U controlled_io.text%s	controlled_io-text.ads	92ba5099 EE NE OO PK
+W controlled_io%s	controlled_io.adb	controlled_io.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-calend.ads		20230707070819 474d9720 ada.calendar%s
+D a-charac.ads		20230707070819 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230707070819 66457d31 ada.characters.latin_1%s
+D a-direio.ads		20230707070819 a93c9b31 ada.direct_io%s
+D a-direct.ads		20230707070819 078228da ada.directories%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-string.ads		20230707070819 90ac6797 ada.strings%s
+D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D controlled_io.ads	20240716145437 012e39f7 controlled_io%s
+D controlled_io-text.ads  20240716145437 9394696e controlled_io.text%s
+D controlled_io-text.adb  20240716145437 7fc77ac6 controlled_io.text%b
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-direio.ads		20230707070819 7c86ede3 system.direct_io%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-pooglo.ads		20230707070819 ede33ef8 system.pool_global%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [new_line controlled_io__text 9 14 none]
+G c Z s b [skip_line controlled_io__text 12 14 none]
+G c Z s b [end_of_line controlled_io__text 15 13 none]
+G c Z s b [next controlled_io__text 18 13 none]
+G c Z s b [write controlled_io__text 21 14 none]
+G c Z s b [read controlled_io__text 24 14 none]
+G c Z s b [write controlled_io__text 27 14 none]
+G c Z s b [next_line controlled_io__text 30 13 none]
+G c Z s b [read_line controlled_io__text 34 14 none]
+G c Z s b [write_line controlled_io__text 40 14 none]
+G c Z b b [next_raw controlled_io__text 17 13 none]
+G c Z b b [undo_read controlled_io__text 20 14 none]
+G r c none [skip_line controlled_io__text 12 14 none] [position controlled_io 47 13 none]
+G r c none [skip_line controlled_io__text 12 14 none] [set_position controlled_io 43 14 none]
+G r c none [end_of_line controlled_io__text 15 13 none] [position controlled_io 47 13 none]
+G r c none [end_of_line controlled_io__text 15 13 none] [set_position controlled_io 43 14 none]
+G r c none [next controlled_io__text 18 13 none] [position controlled_io 47 13 none]
+G r c none [next controlled_io__text 18 13 none] [set_position controlled_io 43 14 none]
+G r c none [write controlled_io__text 21 14 none] [write controlled_io 59 14 none]
+G r c none [read controlled_io__text 24 14 none] [position controlled_io 47 13 none]
+G r c none [read controlled_io__text 24 14 none] [set_position controlled_io 43 14 none]
+G r c none [write controlled_io__text 27 14 none] [write controlled_io 59 14 none]
+G r c none [next_line controlled_io__text 30 13 none] [position controlled_io 47 13 none]
+G r c none [next_line controlled_io__text 30 13 none] [set_position controlled_io 43 14 none]
+G r c none [read_line controlled_io__text 34 14 none] [position controlled_io 47 13 none]
+G r c none [read_line controlled_io__text 34 14 none] [set_position controlled_io 43 14 none]
+G r c none [write_line controlled_io__text 40 14 none] [write controlled_io 59 14 none]
+G r c none [undo_read controlled_io__text 20 14 none] [position controlled_io 47 13 none]
+G r c none [undo_read controlled_io__text 20 14 none] [set_position controlled_io 43 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|5r6 6r6 13r69 33r39 35r23 38r27 47r9 59r22 59r50 68r25 68r53
+. 72r20 75r24 133r9
+X 3 a-charac.ads
+16K13*Characters 18e19 18|5r10 13r73 33r43 35r27 38r31 59r26 59r54 68r29
+. 68r57 72r24 75r28
+X 4 a-chlat1.ads
+18K24*Latin_1 296e27 18|5w21 13r84 33r54 35r38 38r42 59r37 59r65 68r40 68r68
+. 72r35 75r39
+35e4*LF{character} 18|13r92 33r62 38r50 59r73 68r76 75r47
+38e4*CR{character} 18|35r46 59r45 68r48 72r43
+X 5 a-direio.ads
+53P9*File_Type<25|81P9>
+108U14*Read 18|149s15[16|65]
+109p7 File{53P9[16|65]} 18|149r21[16|65]
+110m7 Item{19|63M9} 18|149r42[16|65]
+117U14*Write 18|13s18[16|65]
+118p7 File{53P9[16|65]} 18|13r25[16|65]
+119m7 Item{19|63M9} 18|13r46[16|65]
+X 9 a-ioexce.ads
+18K13*IO_Exceptions 30e22 18|6w10 47r13 133r13
+26X4*End_Error 18|47r27 133r27
+X 16 controlled_io.ads
+12K9*Controlled_IO 81e18 17|5r9 42r5 18|8r14 159r5
+13R9*File_Handle<8|50R9> 69e14 17|9r38 12r39 15r40 18r33 21r35 24r34 27r35
+. 30r38 34r39 40r40 18|9r38 17r37 20r39 23r39 54r40 62r33 82r35 88r34 96r35
+. 104r38 117r39 139r40 146r37 154r39
+34M12*Byte{19|63M9} 18|147r16
+37M9*Count_Value
+38M12*Position_Value{37M9}
+43U14*Set_Position 18|157s12
+43m55 Position{38M12} 18|157r26
+47V13*Position{38M12} 18|157s43
+59U14*Write 18|85s12
+59m48 Value{34M12} 18|85r19
+65K12 Byte_IO[5|43] 18|13r10 149r7
+68p7*Handle{5|53P9[65]} 18|13r38 149r34
+X 17 controlled_io-text.ads
+5K23*Text 16|12k9 17|42l19 42e23 18|8b28 159l19 159t23
+9U14*New_Line 9=24 9>51 18|9b14 15l8 15t16 143s7
+9r24 File{16|13R9} 18|9b24 13r33 143r17
+9i51 Spacing{positive} 18|9b51 12r33
+12U14*Skip_Line 12=25 12>52 18|23b14 52l8 52t17 124s13
+12r25 File{16|13R9} 18|23b25 31m31 31r31 36m34 36r34 39m38 124r24
+12i52 Spacing{positive} 18|23b52 27r33 28r21
+15V13*End_Of_Line{boolean} 15=26 18|54b13 60l8 60t19 123s13
+15r26 File{16|13R9} 18|54b26 55m46 55r46 57m26
+18V13*Next{character} 18=19 18|62b13 80l8 80t12 92s15
+18r19 File{16|13R9} 18|62b19 66m28 66r28 73m31 73r31 76m35
+21U14*Write 21=21 21>48 18|82b14 86l8 86t13 100s10
+21r21 File{16|13R9} 18|82b21 85m7 85r7 100r17
+21e48 Item{character} 18|82b48 85r43 100r31
+24U14*Read 24=20 24<47 18|88b14 94l8 94t12
+24r20 File{16|13R9} 18|88b20 92m21 92r21
+24a47 Item{string} 18|88b47 91m26 91r26
+27U14*Write 27=21 27>48 18|96b14 102l8 102t13 142s7
+27r21 File{16|13R9} 18|96b21 100m25 142r14
+27a48 Item{string} 18|96b48 99r33 142r28
+30V13*Next_Line{string} 30=24 18|104b13 114s21 115l8 115t17
+30r24 File{16|13R9} 18|104b24 108m26 114m32 114r32
+34U14*Read_Line 34=25 34<52 34<71 18|108s7 117b14 137l8 137t17
+34r25 File{16|13R9} 18|108r18 117b25 123m26 123r26 124m32 129m32 129r32
+34a52 Item{string} 18|108r32 117b52 122r33 129m10 134r17
+34i71 Last{natural} 18|108r46 117b71 120m7 130m10 134r10
+40U14*Write_Line 40=26 40>53 18|139b14 144l8 144t18
+40r26 File{16|13R9} 18|139b26 142m22 143m25
+40a53 Item{string} 18|139b53 142r36
+X 18 controlled_io-text.adb
+12l7 All_Lines 14l16 14e25
+12i23 I{integer}
+17V13 Next_Raw{character} 17=23 31s21 36s24 55s36 66s18 73s21 129s22 146b13
+. 152l8 152t16
+17r23 File{16|13R9} 146b23 149r29
+20U14 Undo_Read 20=25 39s19 57s7 76s16 154b14 158l8 158t17
+20r25 File{16|13R9} 39r30 57r18 76r27 154b25 157m7 157r7 157r38
+24e7 Char{character} 31m13 33r32 35r16 36m16 38r19
+25b7 EOF{boolean} 28m10 48r10
+27l7 All_Lines 45l16 45e25
+27i23 I{integer} 28r17
+30l10 Find_EOL 33r18 42r21 44l19 44e27
+55e7 Char{character} 59r14
+63e7 Char{character} 66m10 68r13 69r20 72r13 73m13 75r16
+65l7 Find_Item 79l16 79e25
+91l7 Get_All 93l16 93e23
+91e21 C=91:26{character} 92r10
+99l7 All_Characters 101l16 101e30
+99e28 C=99:33{character} 100r39
+105a7 Line{string} 108m40 110r17 111r17 111r23 114r14
+106i7 Last{natural} 108m54 110r10 111r37
+122l7 Get_Characters 131l16 131e30
+122i28 I{integer} 129r16 130r18
+147m7 Result{16|34M12} 149m50 151r29
+X 19 interfac.ads
+63M9*Unsigned_8
+X 25 s-direio.ads
+81P9*File_Type(53R9)
+

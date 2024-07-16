@@ -1,0 +1,249 @@
+V "GNAT Lib v10"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U controlled_io%b	controlled_io.adb	710c03d9 OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U controlled_io%s	controlled_io.ads	4a6a581f EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+W ada.directories%s	a-direct.adb		a-direct.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.direct_io%s	s-direio.adb		s-direio.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-calend.ads		20230707070819 474d9720 ada.calendar%s
+D a-charac.ads		20230707070819 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230707070819 66457d31 ada.characters.latin_1%s
+D a-direio.ads		20230707070819 a93c9b31 ada.direct_io%s
+D a-direio.adb		20230707070819 dc70efaa ada.direct_io%b
+D a-direct.ads		20230707070819 078228da ada.directories%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-string.ads		20230707070819 90ac6797 ada.strings%s
+D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D controlled_io.ads	20240716145437 012e39f7 controlled_io%s
+D controlled_io.adb	20240716145437 70223a2e controlled_io%b
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-direio.ads		20230707070819 7c86ede3 system.direct_io%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-fileio.ads		20230707070819 45ce2f0f system.file_io%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-memory.ads		20230707070819 597d6634 system.memory%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-pooglo.ads		20230707070819 ede33ef8 system.pool_global%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stalib.adb		20230707070819 f2fe2716 system.standard_library%b
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20230707070819 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [opened controlled_io 19 13 none]
+G c Z s b [created controlled_io 24 13 none]
+G c Z s s [opened_or_created controlled_io 28 13 none]
+G c Z s s [end_of_file controlled_io 31 13 none]
+G c Z s s [size controlled_io 40 13 none]
+G c Z s b [set_position controlled_io 43 14 none]
+G c Z s s [position controlled_io 47 13 none]
+G c Z s b [next controlled_io 50 13 none]
+G c Z s b [read controlled_io 54 14 none]
+G c Z s b [write controlled_io 59 14 none]
+G c Z s b [write controlled_io 62 14 none]
+G c Z s s [create controlled_io__byte_io 74 14 65_4]
+G c Z s s [open controlled_io__byte_io 80 14 65_4]
+G c Z s s [close controlled_io__byte_io 86 14 65_4]
+G c Z s s [delete controlled_io__byte_io 87 14 65_4]
+G c Z s s [reset controlled_io__byte_io 88 14 65_4]
+G c Z s s [reset controlled_io__byte_io 89 14 65_4]
+G c Z s s [mode controlled_io__byte_io 91 13 65_4]
+G c Z s s [name controlled_io__byte_io 92 13 65_4]
+G c Z s s [form controlled_io__byte_io 93 13 65_4]
+G c Z s s [is_open controlled_io__byte_io 95 13 65_4]
+G c Z s s [flush controlled_io__byte_io 97 14 65_4]
+G c Z s s [read controlled_io__byte_io 103 14 65_4]
+G c Z s s [read controlled_io__byte_io 108 14 65_4]
+G c Z s s [write controlled_io__byte_io 112 14 65_4]
+G c Z s s [write controlled_io__byte_io 117 14 65_4]
+G c Z s s [set_index controlled_io__byte_io 121 14 65_4]
+G c Z s s [index controlled_io__byte_io 123 13 65_4]
+G c Z s s [size controlled_io__byte_io 124 13 65_4]
+G c Z s s [end_of_file controlled_io__byte_io 126 13 65_4]
+G c Z s s [to_fcb controlled_io__byte_io 61 13 65_4]
+G c Z s s [to_dio controlled_io__byte_io 62 13 65_4]
+G c Z s b [finalize controlled_io 71 25 none]
+G c Z s s [file_handleDF controlled_io 67 9 none]
+G c Z s s [file_handleIP controlled_io 67 9 none]
+G c Z s s [byte_listIP controlled_io 35 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|6r6 9r14 10r14 17r13 20r15 20r54 20r84 29r11 65r27 67r28
+X 5 a-direio.ads
+41+9 Element_Type 17|65r42
+43k13*Direct_IO 193e18 17|10w18 65r31
+53P9*File_Type<24|81P9> 17|68r24[65]
+55E9*File_Mode
+55n32*Inout_File{55E9[17|65]} 18|22r61[17|65] 30r63[17|65]
+66I9*Count<long_integer> 18|37r61[17|65]
+68I12*Positive_Count{66I9[17|65]}
+74U14*Create 18|30s18[17|65]
+75p7 File{53P9[17|65]} 18|30r26[17|65]
+76e7 Mode{55E9[17|65]} 18|30r47[17|65]
+77a7 Name{string} 18|30r75[17|65]
+78a7 Form{string} 18|30r89[17|65]
+80U14*Open 18|22s18[17|65]
+81p7 File{53P9[17|65]} 18|22r24[17|65]
+82e7 Mode{55E9[17|65]} 18|22r45[17|65]
+83a7 Name{string} 18|22r73[17|65]
+84a7 Form{string} 18|22r87[17|65]
+86U14*Close 18|11s18[17|65]
+86p22 File{53P9[17|65]} 18|11r25[17|65]
+95V13*Is_Open{boolean} 18|10s18[17|65]
+108U14*Read 18|43s15[17|65]
+109p7 File{53P9[17|65]} 18|43r21[17|65]
+110m7 Item{19|63M9} 18|43r42[17|65]
+117U14*Write 18|59s15[17|65]
+118p7 File{53P9[17|65]} 18|59r22[17|65]
+119m7 Item{19|63M9} 18|59r43[17|65]
+121U14*Set_Index 18|37s15[17|65]
+121p25 File{53P9[17|65]} 18|37r26[17|65]
+121i43 To{68I12[17|65]} 18|37r47[17|65]
+123V13*Index{68I12[17|65]} 17|80s32[65]
+124V13*Size{66I9[17|65]} 17|77s29[65]
+126V13*End_Of_File{boolean}<24|90p13> 17|74s16[65]
+X 7 a-direct.ads
+76K13*Directories 502e20 17|6w10 17r17 20r19 20r58 20r88 29r15
+303E9*File_Kind 303e62 17|17r29
+303n34*Ordinary_File{303E9} 17|20r100
+310V13*Exists{boolean} 17|20s31 29s27
+316V13*Kind{303E9} 17|20s70
+X 9 a-finali.ads
+40K13*Finalization 68e21 17|9w18 67r32
+50H9*Limited_Controlled<29|40R9> 66e55 17|67r45
+X 17 controlled_io.ads
+12K9*Controlled_IO 65E12 81l5 81e18 18|6b14 69l5 69t18
+13R9*File_Handle<9|50R9> 9|53P14 17|19p13 19r70 24p13 24r71 28p13 28r81 31p13
+. 31r36 40p13 40r29 43p14 43r42 47p13 47r33 50p13 50r33 54p14 54r34 59p14
+. 59r35 62p14 62r35 67c9 69e14 71P25 71r51 73r36 76r29 79r33 18|7r51 18r70
+. 21r21 26r71 29r21 34r42 40r33 48r34 56r35 62r35 29|42p14
+19V13*Opened{13R9} 19>21 19>39 21r15 29s46 18|18b13 24l8 24t14
+19a21 Name{string} 20r39 20r76 18|18b21 22r81
+19a39 Form{string} 18|18b39 22r95
+24V13*Created{13R9} 24>22 24>40 25r15 29s71 18|26b13 32l8 32t15
+24a22 Name{string} 18|26b22 30r83
+24a40 Form{string} 18|26b40 30r97
+28V13*Opened_Or_Created{13R9} 28>32 28>50
+28a32 Name{string} 29r35 29r54 29r80
+28a50 Form{string} 29r60 29r86
+31V13*End_Of_File{boolean} 31>26 51s23 55s23 73b13
+31r26 File{13R9} 74r29
+34M12*Byte{19|63M9} 35r51 50r53 59r59 65r58 18|40r53 41r16 56r59
+35A9*Byte_List(34M12)<integer> 54r58 62r59 18|48r58 62r59
+37M9*Count_Value 38r30 38r53 40r49 76r49 77r8
+38M12*Position_Value{37M9} 43r69 47r53 79r53 80r8 18|34r69
+40V13*Size{37M9} 40>19 44s36 76b13
+40r19 File{13R9} 77r35
+43U14*Set_Position 43=28 43>55 18|34b14 38l8 38t20
+43r28 File{13R9} 44r31 18|34b28 37r34
+43m55 Position{38M12} 44r14 18|34b55 37r68
+47V13*Position{38M12} 21s29 25s30 47>23 79b13
+47r23 File{13R9} 80r39
+50V13*Next{34M12} 50=19 18|40b13 46l8 46t12 52s15
+50r19 File{13R9} 51r18 18|40b19 43r29
+54U14*Read 54=20 54<47 18|48b14 54l8 54t12
+54r20 File{13R9} 55r18 18|48b20 52m21 52r21
+54a47 List{35A9} 18|48b47 51m28 51r28
+59U14*Write 59=21 59>48 18|56b14 60l8 60t13 66s15
+59r21 File{13R9} 18|56b21 59r30
+59m48 Value{34M12} 18|56b48 59r51 66r22
+62U14*Write 62=21 62>48 18|62b14 68l8 68t13
+62r21 File{13R9} 18|62b21 66m10 66r10
+62a48 Value{35A9} 18|62b48 65r28
+65K12 Byte_IO[5|43] 68r16 74r8 77r21 80r24 18|10r10 11r10 22r10 22r53 30r10
+. 30r55 37r7 37r53 43r7 59r7
+68p7*Handle{5|53P9[65]} 74r34 77r40 80r44 18|10r34 11m40 22m37 30m39 37r39
+. 43r34 59r35
+71U25 Finalize<9|54p14> 71=35 18|7b25 16l8 16t16
+71r35 Object{13R9} 18|7b35 10r27 11m33 11r33
+X 18 controlled_io.adb
+21r14 File{17|13R9} 22m32 22r32
+29r14 File{17|13R9} 30m34 30r34
+41m7 Result{17|34M12} 43m50 45r14
+51l7 All_Bytes 53l16 53e25
+51m23 B=51:28{17|34M12} 52r10
+65l7 All_Bytes 67l16 67e25
+65m23 B=65:28{17|34M12} 66r31
+X 19 interfac.ads
+38K9*Interfaces 17|7w6 34r20 19|184e15
+63M9*Unsigned_8 17|34r31
+X 21 system.ads
+67M9*Address
+X 24 s-direio.ads
+81P9*File_Type(53R9)
+X 30 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
