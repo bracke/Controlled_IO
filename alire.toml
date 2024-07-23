@@ -1,6 +1,6 @@
 name = "controlled_io"
 description = "Files that are open while they exist and closed when they don't "
-version = "20240402"
+version = "20240401.0.1"
 
 authors = ["Jeffrey Carter"]
 maintainers = ["Bent Bracke <bent@bracke.dk>"]
